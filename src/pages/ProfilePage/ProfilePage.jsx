@@ -1,9 +1,13 @@
-import React from 'react';
+// import Header from '../../components/Header/Header';
 
 const ProfilePage = () => {
   return (
     <div>
-      <div>Profile Page</div>
+      {/* <Header title='Profile' /> */}
+
+      <div></div>
+
+      <div></div>
     </div>
   );
 };

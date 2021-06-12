@@ -1,9 +1,13 @@
-import React from 'react';
+// import Header from '../../components/Header/Header';
 
 const FeedPage = () => {
   return (
     <div>
-      <div>FeedPage</div>
+      {/* <Header title='Home' searchBox /> */}
+
+      <div></div>
+
+      <div></div>
     </div>
   );
 };

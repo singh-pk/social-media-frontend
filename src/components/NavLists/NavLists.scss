@@ -1,0 +1,30 @@
+@import '../../main';
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  margin: 0.3rem 0;
+  border-radius: $border-radius;
+  font-weight: $font-weight-bold;
+  font-size: 1.1rem;
+
+  .nav-icons {
+    height: 1.64rem;
+    width: 1.64rem;
+  }
+
+  .nav-list-name {
+    margin-left: 1rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba($primary-color, 0.1);
+    color: $primary-color;
+
+    .nav-icons {
+      fill: $primary-color;
+    }
+  }
+}

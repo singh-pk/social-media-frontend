@@ -12,6 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  a {
+    color: unset;
+    text-decoration: unset;
+  }
 }
 
 .app {
@@ -20,16 +25,16 @@ body {
   height: 100vh;
 
   & > :first-child {
-    flex: 0.3;
+    flex: 0.22;
     border-right: $border;
   }
 
   & > :nth-child(2) {
-    flex: 0.4;
+    flex: 0.45;
     border-right: $border;
   }
 
   & > :last-child {
-    flex: 0.3;
+    flex: 0.35;
   }
 }
