@@ -21,8 +21,8 @@ const NavLists = () => {
     },
   ];
 
-  return navLists.map(({ path, icon, name, className }) => (
-    <Link className={className} to={path}>
+  return navLists.map(({ path, icon, name, className }, i) => (
+    <Link key={i} className={className} to={path}>
       {icon} <span className='nav-list-name'>{name}</span>
     </Link>
   ));
